@@ -509,3 +509,44 @@ nav{
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background:rgb(109,67,0);
+    color:white;
+    padding:50px 20px;
+    text-align:center;
+    position:relative;
+}
+
+.copyright{
+    margin-top:20px;
+    color:#94a3b8;
+}
+
+/* ================= BACK TO TOP ================= */
+
+.back-to-top{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:55px;
+    height:55px;
+    background: rgb(177, 132, 59);
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+    z-index:999;
+}
+
+.back-to-top:hover{
+    background:  rgb(235, 224, 208);
+    transform:translateY(-5px);
+}
